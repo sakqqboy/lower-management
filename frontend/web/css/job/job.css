@@ -1,0 +1,299 @@
+.client-select-box {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    padding-bottom: 20px;
+    height: 200px;
+    overflow-y: auto;
+    scrollbar-width: 5px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    width: 94%;
+    display: none;
+}
+
+.select2-selection {
+    min-height: 80px !important;
+    min-width: 100%;
+}
+
+.select2-selection__choice__display {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.select2-selection__choice__remove {
+    font-size: 14px !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+}
+
+.client-select-box-item {
+    font-size: 16px;
+    height: 40px;
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border-bottom: #F5F5F5 solid thin;
+}
+
+.client-select-box-item:hover {
+    background-color: #F5F5F5;
+}
+
+.month-calendar-box {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    height: 240px;
+    overflow-y: auto;
+    scrollbar-width: 5px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    width: 91%;
+    display: none;
+}
+
+.month-calendar-box-item {
+    font-size: 18px;
+    height: 60px;
+    color: gray;
+    padding-top: 20px;
+    padding-top: 20px;
+    border-bottom: lightgray solid thin;
+    cursor: pointer;
+}
+
+.month-calendar-box-item:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.job-name-detail {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.client-name-detail {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pic-complain {
+    height: 45px;
+    width: 45px;
+}
+
+.complain-pic {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFF99;
+    cursor: pointer;
+}
+
+.complain-text {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 20px;
+    cursor: pointer;
+    background-color: #FFFF99;
+    letter-spacing: 1px;
+    color: gray;
+    /* text-shadow: black 2px 2px 1px; */
+}
+
+.complain-text:hover {
+    color: black;
+}
+
+.head-step {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.add-pic-job {
+    margin-top: 10px !important;
+    margin-left: -10px !important;
+}
+
+.complain-massege {
+    color: #FF6666;
+    font-size: 14px;
+}
+
+.total-time {
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: lightgray solid thin;
+    text-align: right;
+    font-size: 20px;
+}
+
+.total-time:focus {
+    border: lightgray solid thin !important;
+    border: 0px;
+}
+
+.head-target-date {
+    font-size: 16;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: lightgray solid thin;
+    background-color: #01579b;
+    color: white;
+}
+
+.detail-due-date {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.step-title {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: lightgray solid thin;
+}
+
+.box-complete {
+    /* border: lightgray solid thin; */
+    padding-top: 10px;
+}
+
+.job-info {
+    padding: 10px;
+    padding-bottom: 20px;
+    border: lightgrey dashed thin;
+}
+
+.job-info-title {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-right: lightgray solid thin;
+    border-bottom: lightgray solid thin;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.job-info-detail {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: lightgray solid thin;
+    font-size: 14px;
+}
+
+.complain-box {
+    border: red dashed thin;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.complain-date {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.complain-text-detail {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-bottom: lightgray solid thin;
+}
+
+.change-job-name {
+    cursor: pointer;
+}
+
+.edit-job-name {
+    display: none;
+}
+
+.job-step-history {
+    border: lightgray solid thin;
+    width: 520px;
+    background-color: #F5FFFA;
+    position: absolute;
+    min-height: 50px;
+    margin-left: -500px;
+    margin-top: 10px;
+    padding: 20px;
+    display: none;
+    box-shadow: lightgray 5px 5px 10px;
+    z-index: 20;
+}
+
+.adjust-duedate-history {
+    border: lightgray solid thin;
+    width: 450px;
+    background-color: #F5FFFA;
+    position: absolute;
+    min-height: 50px;
+    margin-left: -440px;
+    padding: 20px;
+    display: none;
+    box-shadow: lightgray 5px 5px 10px;
+    z-index: 20;
+}
+
+.job-step-history-update {
+    border: lightgray solid thin;
+    width: 520px;
+    background-color: #F5FFFA;
+    position: absolute;
+    min-height: 50px;
+    margin-left: -500px;
+    margin-top: 10px;
+    padding: 20px;
+    display: none;
+    box-shadow: lightgray 5px 5px 10px;
+    z-index: 20;
+}
+
+@media screen and (max-width: 768px) {
+    .job-name-detail {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .client-name-detail {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .pic-complain {
+        height: 25px;
+        width: 25px;
+    }
+    .complain-pic {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .complain-text {
+        font-size: 14px;
+        font-weight: 500;
+        padding-top: 10px;
+        letter-spacing: 1px;
+    }
+    .job-step-history {
+        margin-top: 20px;
+        margin-left: -400px;
+        width: 420px;
+        z-index: 20;
+    }
+    .job-step-history-update {
+        margin-top: 20px;
+        margin-left: -250px;
+        width: 450px;
+        z-index: 20;
+    }
+}

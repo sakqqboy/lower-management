@@ -1,0 +1,187 @@
+.header-top {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    color: white;
+    background-color: #01579b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-box {
+    height: 90px;
+    /* border-right: #311b92 solid thin; */
+    border-right: gray solid thin;
+    text-align: center;
+}
+
+.header-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.header-menu {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    /* text-shadow: black 1px 1px 2px; */
+}
+
+.menu-box:hover {
+    opacity: 0.6;
+}
+
+.admin-area {
+    margin-top: 110px;
+    position: fixed;
+    /* top: 0; */
+    bottom: 20px;
+    z-index: 20;
+}
+
+.admin-icon {
+    height: 45px;
+    width: 45px;
+}
+
+.admin-icon:hover {
+    cursor: pointer;
+}
+
+.admin-menu {
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 3px lightgrey;
+    position: fixed;
+    /* overflow-y: auto; */
+    overflow-y: scroll;
+    top: 0;
+    /* height: 100%; */
+    z-index: 20;
+    padding-bottom: 50px;
+    display: none;
+}
+
+.list-admin-menu {
+    min-height: 50px;
+    border-bottom: lightgrey solid thin;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 14px;
+    background-color: white;
+    z-index: 20;
+    color: #0B0B3B;
+}
+
+.list-admin-menu:hover {
+    cursor: pointer;
+}
+
+.admin-menu-list-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.admin-menu-text {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.admin-menu-close {
+    height: 20px;
+    width: 20px;
+}
+
+.admin-menu-close:hover {
+    cursor: pointer;
+}
+
+.delete-list {
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+}
+
+.delete-list:hover {
+    cursor: pointer;
+}
+
+.close-box {
+    position: absolute;
+    z-index: 21;
+    right: 0px;
+    text-align: right;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.box-report {
+    border: #66CCFF solid thin;
+    min-height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.box-report-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comingsoon {
+    font-size: 30px;
+    text-align: center;
+    color: lightgrey;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.access-denide-text {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.access-denide-image-box {
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+.access-denide-image {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-menu {
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        text-shadow: none;
+    }
+    .header-icon {
+        height: 20px;
+        width: 20px;
+    }
+    .header-top {
+        height: 90px;
+    }
+    .menu-box {
+        height: 80px;
+    }
+    .admin-icon {
+        height: 35px;
+        width: 35px;
+    }
+    .admin-area {
+        margin-top: 100px;
+    }
+    .admin-menu {
+        margin-top: 90px;
+    }
+}

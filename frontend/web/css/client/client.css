@@ -1,0 +1,48 @@
+.client-list {
+    border-right: lightgray solid thin;
+    /* min-height: 673px; */
+}
+
+.client-list-item {
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom: lightgray solid thin;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    height: 45px;
+}
+
+.client-list-item:hover {
+    background-color: rgb(247, 245, 245);
+}
+
+.client-list-zone {
+    height: 600px;
+    overflow-y: auto;
+    vertical-align: top;
+    position: relative;
+}
+
+.amount-client-job {
+    letter-spacing: 1.5px;
+}
+
+.job-name-link {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.client-detail-box {
+    min-height: 300px;
+    border: lightgray solid thin;
+    padding: 20px;
+    border: lightgray solid thin;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.client-detail {
+    padding-left: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,90 @@
+.flag-book {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px #AAAAAA;
+}
+
+.flag-book-manage {
+    height: 60px;
+    width: 100px;
+    box-shadow: 5px 5px 3px #AAAAAA;
+}
+
+.book-country-name {
+    background-color: white;
+    background-image: linear-gradient(to right, #ECF0F1, white);
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.title-image-book {
+    width: 100%;
+    height: 150px;
+}
+
+.image-box-book {
+    height: 150px;
+    padding: 0px;
+}
+
+.title-box-book {
+    height: 180px;
+    Background-color: white;
+    padding-top: 10px;
+}
+
+.title-text-book {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sub-title-text-book {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.country-name-manage {
+    padding-top: 18px;
+}
+
+.total-content-manage {
+    padding-top: 18px;
+}
+
+.row-country-manage {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+
+.row-country-manage:hover {
+    opacity: 1;
+}
+
+.content-book-image-list {
+    height: 70px;
+    width: 120px;
+}
+
+.book-content-edit {
+    height: 1000px;
+}
+
+.image-show-content-box {
+    padding: 0px;
+}
+
+.image-show-content {
+    width: 100%;
+}
+
+.show-content-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content-body {
+    padding-left: 20px;
+}

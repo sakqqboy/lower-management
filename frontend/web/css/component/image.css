@@ -1,0 +1,64 @@
+.profile-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.add-image {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin-top: 40px;
+    top: 0;
+}
+
+.add-image-step {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-image-step-update {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.submit-button {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.sort-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.box-award {
+    height: 350px;
+    border: lightgray solid thin;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.medal-reward {
+    height: 250px;
+    width: 180px;
+    margin-right: -50px;
+    margin-top: -50px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.medal-silver-reward {
+    height: 180px;
+    width: 180px;
+    margin-right: -50px;
+    margin-top: -40px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}

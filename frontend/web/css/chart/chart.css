@@ -1,0 +1,97 @@
+.chart-table-title {
+    font-size: 20px;
+    padding-left: 60px;
+    font-weight: 600;
+}
+
+.chart-table-head {
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.chart-table-footer {
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: lightgray solid thin;
+}
+
+.chart-table-body {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.border-right {
+    border-right: lightgray solid thin;
+}
+
+.dropdow-chart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.dropdow-chart-box-right {
+    width: 200px;
+    position: absolute;
+    z-index: 10;
+    height: 150px;
+    overflow: auto;
+    margin-top: 5px;
+    right: 0;
+    margin-right: 15px;
+    background-color: white;
+    box-shadow: lightgrey 2px 2px 3px;
+    display: none;
+}
+
+.dropdow-chart-box-left {
+    width: 200px;
+    position: absolute;
+    z-index: 10;
+    height: 80px;
+    overflow: auto;
+    margin-top: 5px;
+    left: 0;
+    margin-left: 15px;
+    background-color: white;
+    box-shadow: lightgrey 2px 2px 3px;
+    display: none;
+}
+
+.dropdow-chart-item {
+    border-bottom: lightgray solid thin;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.dropdow-chart-item:hover {
+    background-color: whitesmoke;
+}
+
+.formular-input {
+    width: 100px;
+    border-radius: 3px;
+    border: lightgray solid thin;
+    min-height: 37px;
+}
+
+.formular-input:focus {
+    border-color: black;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.calculate-button:hover {
+    cursor: pointer;
+    text-shadow: gray 2px 2px 2px;
+}
+
+.formular-result {
+    background-color: whitesmoke;
+    font-weight: bold;
+}

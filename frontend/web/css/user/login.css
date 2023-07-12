@@ -1,0 +1,41 @@
+.login-page {
+    /* background-color: #000059; */
+    background-color: #008cff;
+    min-height: 745px;
+}
+
+.login-box {
+    margin-top: 8%;
+    min-height: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.884) 0px 3px 8px;
+    /* box-shadow: 2px 2px 2px 2px lightgray; */
+}
+
+.system-name {
+    font-size: 40px;
+    color: white;
+}
+
+.login-text {
+    font-size: 17px;
+}
+
+.login-input {
+    background-color: white !important;
+    font-family: Bahnschrift Light !important;
+}
+
+.btn-login {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .system-name {
+        font-size: 30px;
+        text-align: center !important;
+    }
+    .login-text {
+        font-size: 14px;
+    }
+}

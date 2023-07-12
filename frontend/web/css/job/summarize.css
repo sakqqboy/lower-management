@@ -1,0 +1,31 @@
+.all-job-summarize {
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+.summarize-box {
+    border-radius: 10px;
+    border: lightgray solid thin;
+    height: 330px;
+    color: black;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.sumarrize-flag {
+    width: 100%;
+}
+
+.info-summarize {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.summarize-number {
+    letter-spacing: 1.5px;
+}
+
+.flag-normal {
+    width: 90px;
+    height: 50px;
+}

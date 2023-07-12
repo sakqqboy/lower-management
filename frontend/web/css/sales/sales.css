@@ -1,0 +1,46 @@
+.carlendar-type-button {
+    font-size: 20px;
+    font-weight: bold;
+    border: #0a8f08 solid thin;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.circle-warning {
+    color: white;
+    background: orange;
+    background: -webkit-linear-gradient(left top, yellow, orange);
+    background: -o-linear-gradient(bottom right, yellow, orange);
+    background: -moz-linear-gradient(bottom right, yellow, orange);
+    background: linear-gradient(to bottom right, yellow, orange);
+    text-shadow: black 1px 1px 3px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: -8px;
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-add {
+    color: black;
+    background: orange;
+    background: -webkit-linear-gradient(yellow, orange);
+    background: -o-linear-gradient(yellow, orange);
+    background: -moz-linear-gradient( yellow, orange);
+    background: linear-gradient( yellow, orange);
+    text-shadow: white 2px 2px 2px;
+    border-top: 0;
+}
+
+.btn-reset {
+    color: black;
+    background: gray;
+    background: -webkit-linear-gradient(white, gray);
+    background: -o-linear-gradient(white, gray);
+    background: -moz-linear-gradient( white, gray);
+    background: linear-gradient( white, gray);
+    text-shadow: lightgray 2px 2px 2px;
+    border-top: 0;
+}

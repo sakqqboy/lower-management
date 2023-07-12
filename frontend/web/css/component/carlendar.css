@@ -1,0 +1,140 @@
+.title-day {
+    width: 14.28%;
+    color: gray;
+}
+
+.big-box-day {
+    width: 14.28%;
+    min-height: 200px;
+    padding: 2px;
+}
+
+.sub-box {
+    /* min-height: 195px; */
+    height: 225px;
+    border: lightgray solid thin;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sub-box-today {
+    /* min-height: 195px; */
+    height: 225px;
+    border: #ff8f00 solid 2px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sub-box-today:hover {
+    border-color: red;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sub-box:hover {
+    border-color: #01579b;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.date-number {
+    font-size: 20px;
+    color: #01579b;
+    font-weight: bold;
+}
+
+.other-month {
+    background-color: #f5f5f5;
+}
+
+.current-date {
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.carlendar-button {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.next-year {
+    border-right: lightgray solid thin;
+}
+
+.job-date {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* font-weight: 600; */
+}
+
+.step-due {
+    color: white;
+    background-color: #01579b;
+}
+
+.final-due {
+    color: black !important;
+    background-color: #ffeb3b;
+    text-shadow: white 2px 2px 2px;
+}
+
+.complete-due {
+    background-color: gray;
+    color: white !important;
+}
+
+.each-date {
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.over-due {
+    background-color: red;
+    color: white;
+}
+
+.step-due-circle {
+    color: #00BFFF;
+    margin-right: 3px;
+}
+
+.final-due-circle {
+    color: #ffeb3b;
+    margin-right: 3px;
+}
+
+.not-set-date {
+    background-color: white;
+    color: black;
+}
+
+.expland-color {
+    height: 10px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.show-date-job {
+    margin-left: 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .next-year {
+        border-right: 0px;
+    }
+}

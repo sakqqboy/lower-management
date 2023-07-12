@@ -1,0 +1,181 @@
+.create-empolyee-box {
+    border: lightgray solid thin;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+}
+
+.employee-detail {
+    font-size: 16px;
+    color: gray;
+}
+
+.upload-result {
+    border: lightgray solid thin;
+    border-radius: 10px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.profile-site {
+    position: fixed;
+    right: 0;
+    min-height: 713px;
+    border-left: #F5F5F5 solid thin;
+    margin-top: -20px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.profile-image-right {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.change-password-box {
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.img-change-password {
+    width: 100px;
+    height: 100px;
+}
+
+.key-box {
+    height: 300px;
+    padding-top: 90px;
+}
+
+.change-password-box2 {
+    padding-top: 50px;
+    border: lightgray solid thin;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.job-box {
+    height: 620px;
+    /* border-right: #DCDCDC solid thin; */
+    overflow-y: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.each-job-box-nearly {
+    min-height: 65px;
+    border: #FFFFE0 solid thin;
+    margin-top: 5px;
+    padding-top: 5px;
+    background: white;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: linear-gradient(180deg, white, #FFFFE0);
+}
+
+.each-job-box-complete {
+    min-height: 65px;
+    border: #FFFFE0 solid thin;
+    margin-top: 5px;
+    padding-top: 5px;
+    background: white;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: linear-gradient(180deg, white, #e5fae5);
+}
+
+.each-job-box-need {
+    min-height: 65px;
+    border: #FFFFE0 solid thin;
+    margin-top: 5px;
+    padding-top: 5px;
+    background: white;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: linear-gradient(180deg, white, #FFF0F5);
+}
+
+.each-job-box-process {
+    min-height: 65px;
+    border: #FFFFE0 solid thin;
+    margin-top: 5px;
+    padding-top: 5px;
+    background: white;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: linear-gradient(180deg, white, #e1f0fb);
+}
+
+.need-box {
+    background-color: #FF6347;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 7px;
+    text-shadow: black 1px 1px 1px;
+}
+
+.nearly-box {
+    background-color: #FFCC66;
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 7px;
+    text-shadow: white 1px 1px 1px;
+}
+
+.process-box {
+    background-color: #1E90FF;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 7px;
+    text-shadow: black 1px 1px 1px;
+}
+
+.complete-box {
+    background-color: #3CB371;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 7px;
+    text-shadow: black 1px 1px 1px;
+}
+
+.job-number {
+    right: 15px;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-site {
+        position: relative;
+    }
+    .key-box {
+        /* padding-top: 110px;
+        height: 300px; */
+        display: none;
+    }
+    .img-change-password {
+        width: 50px;
+        height: 50px;
+    }
+    .profile-change-password {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+RewriteEngine on
+
+#Rewrite on Alias delete when production
+#RewriteBase /cozxy/backend/web
+#RewriteBase /cozxyback
+
+# If a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Otherwise forward it to index.php
+RewriteRule . index.php
+
+#Header set Access-Control-Allow-Origin "*"
+#Header set Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"

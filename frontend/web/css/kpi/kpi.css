@@ -1,0 +1,12 @@
+.kpi-detail {
+    font-size: 12px;
+    background-color: #98FB98;
+    border-radius: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+}
